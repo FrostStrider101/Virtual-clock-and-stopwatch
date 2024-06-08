@@ -1,0 +1,106 @@
+#Row1 {
+    position: relative;
+}
+
+#row1images {
+    display: flex;
+    justify-content: center;
+}
+
+#row1images img{
+    flex-grow:1;
+}
+#row1labels {
+    display: flex;
+    /* justify-content: center; */
+    /* position: absolute; */
+    width: 100%;
+}
+
+#Row2 {
+    position: relative;
+}
+
+#row2images {
+    display: flex;
+    justify-content: center;
+}
+
+#row2images img{
+    flex-grow:1;
+}
+
+#row2labels {
+    display: flex;
+    /* justify-content: center; */
+    /* position: absolute; */
+    width: 100%;
+}
+
+#Row3 {
+    position: relative;
+}
+
+#row3images {
+    display: flex;
+    justify-content: center;
+}
+
+#row3images img{
+    flex-grow:1;
+}
+
+#row3labels {
+    display: flex;
+    /* justify-content: center; */
+    /* position: absolute; */
+    width: 100%;
+}
+
+#Row4 {
+    position: relative;
+}
+
+#row4images {
+    display: flex;
+    justify-content: center;
+}
+
+#row4images img{
+    flex-grow:1;
+}
+
+#row4labels {
+    display: flex;
+    /* justify-content: center; */
+    /* position: absolute; */
+    width: 100%;
+}
+
+.labels {
+    flex-grow: 1;
+    flex:1;
+    color: white;
+    text-align: center;
+}
+
+
+.themeimages {
+    width: 130px;
+    margin: 10px;
+}
+
+.themeimages:hover {
+    border: 2px solid white;
+    width: 160px
+}
+
+#themesright{
+    position: absolute;
+    border: 2px solid white;
+    width: 70%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    visibility: hidden;
+}
