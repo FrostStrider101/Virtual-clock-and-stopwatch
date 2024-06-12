@@ -1,0 +1,263 @@
+
+
+#timezoneselect {
+    display: flex;
+    flex-grow: 1;
+    flex:1;
+    height: auto;
+    border-radius: 30px;
+    width: 200px;
+    font-size: 1.4em;
+    text-align: center;
+    color: white;
+    background-color: rgb(252,193,145);
+    padding: 10px;
+    font-weight: bold;
+    background-color: transparent;
+    font-size: 1.7em;
+}
+
+#timezoneselect:hover{
+    border: 2.5px solid white;
+    cursor: pointer;
+    
+}
+
+#settingsbutton {
+    height: 46px;
+    width: 56px;
+    flex-grow: 0;
+    flex-basis: auto;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+#typeofclock {
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-grow: 1;
+    flex:1;
+    border-radius: 30px;
+    font-size: 1.7em;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(252,193,145);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid grey;
+    background-color: transparent;
+}
+
+#typeofclock:hover{
+    border: 2.5px solid white;
+    cursor: pointer;
+}
+
+#optionsdiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 5px;
+}
+
+#settingstab {
+    position: absolute;
+    background-color: black;
+    height: 550px;
+    width: 700px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    visibility: hidden;
+}
+
+#settingslefttabdiv {
+    height: 100%;
+    border-right: 2px solid white;
+    box-sizing: border-box;
+    flex: 30;
+}
+
+.options {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.4em;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#settingsrighttabdiv {
+    width: 100%;
+    height: 100%;
+    flex:70;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(173, 173, 173);
+    border-radius: 10px;
+  }
+
+
+@font-face {
+    font-family: "Satisfy";
+    src: url(Satisfy\ font.ttf);
+}
+
+@font-face {
+    font-family: "Kalam";
+    src: url(Kalam\ font.ttf);
+}
+
+@font-face {
+    font-family: "Kalam";
+    src: url(Kalam\ font.ttf);
+}
+
+@font-face {
+    font-family: "Acme";
+    src: url(Acme\ Font.ttf);
+}
+
+@font-face {
+    font-family: "Cabin";
+    src: url(Cabin\ Font.ttf);
+}
+
+@font-face {
+    font-family: "Beginner";
+    src: url(Biggener\ Font.ttf);
+}
+
+@font-face {
+    font-family: "Pacifico";
+    src: url(Pacifico\ Font.ttf);
+}
+
+#creater{
+    position: absolute;
+    left : 30px;
+    top: 5px;
+    font-size: 2.5em;
+    font-family: "Satisfy";
+    color: white;
+}
+
+#name{
+    position: absolute;
+    left : 150px;
+    top: 70px;
+    font-size: 1.5em;
+    font-family: "Kalam";
+    color: white;
+}
+
+#stopwatch{
+    font-family: monospace;
+    font-size: 8em;
+    font-weight: bold;
+    color: white;
+    margin-bottom:5px;
+    width: 100%;
+    flex-direction: column;
+}
+
+#stopwatchoptions{
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: auto;
+    width: auto;
+}
+
+
+
+#stopwatchoptions button {
+    flex:1;
+    border-radius: 25px;
+    padding: 10px; 
+    height: auto;
+    color: white;
+    background-color: rgb(252,193,145);
+    border: 1.5px solid grey;
+    background-color: transparent;
+    font-size: 0.22em;
+    font-weight: bold;
+}
+
+#stopwatchoptions button:hover{
+    border: 2.5px solid white;
+    cursor: pointer;
+}
+body {
+    margin: 0;
+    background-image: url(Dreamy\ Clouds.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative
+}
+
+#basediv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+#liveclockdiv {
+    font-family: monospace;
+    font-size: 8em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+#savetime{
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-grow: 1;
+    flex:1;
+    border-radius: 30px;
+    font-size: 1.7em;
+    color: white;
+    background-color: rgb(252,193,145);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    border: 1.5px solid grey;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+#savetime:hover{
+    border: 2.5px solid white;
+    cursor: pointer;
+}

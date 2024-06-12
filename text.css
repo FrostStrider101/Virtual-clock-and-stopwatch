@@ -1,0 +1,95 @@
+
+
+#showexample{
+    width: 100%;
+    height: 30%;
+}
+
+#showcasetext{
+    color: white;
+    text-align: center;
+}
+
+
+#allexframesdiv{
+    border-top:2px solid white;
+}
+#exampleclock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#exampleoptionsdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    gap:15px;
+    margin-top: 10px;
+    border-bottom: 2px solid white;
+}
+
+.exampleoptions{
+    background-color: transparent;
+    padding:5px 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1.5px solid grey;
+}
+
+.exampleoptions:hover{
+    border:2px solid white;
+    cursor: pointer;
+}
+
+
+.allproperties{
+    width:50%;
+    height:50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;  /* Column layout for the contents of each property box */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+#propertiesdiv{
+    width: 100%;
+    height: 65%;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#textdiv {
+    height: 100%;
+    width: 70%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    position: absolute;
+    right: 0; 
+    visibility: hidden;
+}
+
+#sizenumber{
+    height: 20px;
+    width: 45px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+#fontsizelabel{
+
+    font-size: 1.4em;
+    
+}
